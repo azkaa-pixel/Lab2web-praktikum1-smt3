@@ -33,7 +33,7 @@ Buatlah dokumen HTML seperti berikut
 ```
 
 #### ```hasil```
-![foto]()
+![foto](https://github.com/azkaa-pixel/Lab2web-praktikum1-smt3/blob/1c8aff8e50c89dec3dfc9ebb45694df73e3f568f/ss%20parktikum%202%20smt3/ss%201.jpeg)
 
 #### ```- penjelasan``` :
 
@@ -59,7 +59,7 @@ Kemudian tambahkan deklarasi CSS internal seperti berikut pada bagian head dokum
 ```
 
 #### ```hasil``` 
-![foto]()
+![foto](https://github.com/azkaa-pixel/Lab2web-praktikum1-smt3/blob/1c8aff8e50c89dec3dfc9ebb45694df73e3f568f/ss%20parktikum%202%20smt3/ss2.jpeg)
 
 #### ```- penjelasan``` :
 
@@ -72,7 +72,7 @@ Kemudian tambahkan deklarasi inline CSS pada tag <p> seperti berikut.
 ```
 
 #### ```hasil``` 
-![foto]()
+![foto](https://github.com/azkaa-pixel/Lab2web-praktikum1-smt3/blob/1c8aff8e50c89dec3dfc9ebb45694df73e3f568f/ss%20parktikum%202%20smt3/ss3.jpeg)
 
 #### ```- penjelasan``` :
 
@@ -99,7 +99,7 @@ Kemudian tambahkan tag <link> untuk merujuk file css yang sudah dibuat pada bagi
 ```
 
 #### ```hasil``` 
-![foto]
+![foto](https://github.com/azkaa-pixel/Lab2web-praktikum1-smt3/blob/1c8aff8e50c89dec3dfc9ebb45694df73e3f568f/ss%20parktikum%202%20smt3/ss4.jpeg)
 
 #### ```- penjelasan``` :
 
@@ -123,6 +123,6 @@ Selanjutnya menambahkan CSS Selector menggunakan ID dan Class Selector. Pada fil
 } 
 ```
 #### ```hasil``` 
-![foto]
+![foto](https://github.com/azkaa-pixel/Lab2web-praktikum1-smt3/blob/1c8aff8e50c89dec3dfc9ebb45694df73e3f568f/ss%20parktikum%202%20smt3/ss5.jpeg)
 
 #### ```- penjelasan``` :
