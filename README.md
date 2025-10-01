@@ -165,3 +165,100 @@ Selanjutnya menambahkan CSS Selector menggunakan ID dan Class Selector. Pada fil
 - ```.button``` dan ```.btn-primary``` adalah Class selector, bisa dipakai berulang di banyak elemen.
 
 - Kombinasi ID dan Class membuat tampilan halaman lebih fleksibel dan konsisten.
+
+# PERTANYAAN DAN TUGAS
+1.	Lakukan eksperimen dengan mengubah dan menambah properti dan nilai pada kode CSS dengan mengacu pada CSS Cheat Sheet yang diberikan pada file terpisah dari modul ini.
+   
+2.	Apa perbedaan pendeklarasian CSS elemen h1 {...} dengan #intro h1 {...}? berikan penjelasannya!
+   
+3.	Apabila ada deklarasi CSS secara internal, lalu ditambahkan CSS eksternal dan inline CSS pada elemen yang sama. Deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya!
+   
+4.	Pada sebuah elemen HTML terdapat ID dan Class, apabila masing-masing selector tersebut terdapat deklarasi CSS, maka deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya!  ```( <p id="paragraf-1" class="text-paragraf"> )```
+
+# Jawaban 
+
+## 1. hasil eksperimen
+   
+![foto](https://github.com/azkaa-pixel/Lab2web-praktikum1-smt3/blob/ae5a3dc03912c8ab77e40fbf31d7af98c93f2860/ss%20parktikum%202%20smt3/tugas%20no1.jpeg)
+   
+## 2. Perbedaan ```h1 {...}``` dengan ```#intro h1 {...}```
+
+```h1 {...}``` → semua elemen ```<h1>``` di halaman akan kena aturan.
+
+```#intro h1 {...}``` → hanya ```<h1>``` yang ada di dalam elemen dengan id="intro" yang kena.
+
+## 3. Kalau ada tiga jenis CSS dipakai di elemen yang sama, urutan kekuatannya
+
+- Inline CSS (paling kuat, langsung ditulis di tag HTML)
+  
+- Internal CSS (ditulis di ```<style>``` di dalam file HTML)
+  
+- Eksternal CSS (ditulis di file ```.css``` terpisah lalu dipanggil di HTML)
+  
+### contoh kode nya
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Eksternal CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Internal CSS -->
+  <style>
+    p { color: blue; }
+  </style>
+</head>
+<body>
+  <p style="color: red;">Halo Dunia</p>
+</body>
+</html>
+```
+### penjelasan 
+
+- Eksternal CSS (misalnya ```p { color: green; }``` di style.css) → kasih warna hijau.
+
+- Internal CSS (```p { color: blue; }```) → kasih warna biru.
+
+- Inline CSS (```style="color:red;"```) → kasih warna merah.
+
+Maka yang muncul di browser = ```merah``` 
+
+## 4. Kalau sebuah elemen punya ID dan Class sekaligus, lalu keduanya dikasih aturan CSS:
+
+MAKA ID (```#```) lebih kuat daripada Class (```.```)
+
+### Contoh kode nya 
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* aturan untuk class */
+    .text-paragraf {
+      color: blue;
+    }
+
+    /* aturan untuk ID */
+    #paragraf-1 {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <p id="paragraf-1" class="text-paragraf">Halo Dunia</p>
+</body>
+</html>
+```
+### penjelasan 
+
+Class ```.text-paragraf``` → warna biru
+
+ID ```#paragraf-1``` → warna merah
+
+Karena ID lebih spesifik, maka teks yang tampil di browser = ```merah``` 
+
+
+
+
