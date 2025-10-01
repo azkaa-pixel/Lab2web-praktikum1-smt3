@@ -1,4 +1,4 @@
-# Lab2web - praktikum1
+# Lab2web - praktikum2
 
 ### 1. Membuat dokumen HTML 
 
@@ -37,6 +37,15 @@ Buatlah dokumen HTML seperti berikut
 
 #### ```- penjelasan``` :
 
+- ```<header>``` untuk bagian kepala halaman.
+
+- ```<nav>``` berisi menu navigasi.
+
+- ```id="intro"```disiapkan untuk styling khusus dengan CSS.
+  
+- ```class="button btn-primary"``` disiapkan agar tombol bisa diberi gaya tertentu.
+
+  
 ### 2. Mendeklarasikan CSS Internal
 
 Kemudian tambahkan deklarasi CSS internal seperti berikut pada bagian head dokumen. 
@@ -63,6 +72,17 @@ Kemudian tambahkan deklarasi CSS internal seperti berikut pada bagian head dokum
 
 #### ```- penjelasan``` :
 
+- CSS ditulis di ```<style>``` → disebut internal CSS.
+
+- ```body``` mengatur font halaman.
+
+- ```header``` diberi tinggi minimal dan garis bawah.
+
+- ```h1``` mengatur ukuran, warna, posisi judul.
+
+- ```h1 i``` memberi warna abu-abu pada teks miring di dalam judul.
+  
+
 ### 3. Menambahkan Inline CSS 
 
 Kemudian tambahkan deklarasi inline CSS pada tag <p> seperti berikut. 
@@ -75,6 +95,12 @@ Kemudian tambahkan deklarasi inline CSS pada tag <p> seperti berikut.
 ![foto](https://github.com/azkaa-pixel/Lab2web-praktikum1-smt3/blob/1c8aff8e50c89dec3dfc9ebb45694df73e3f568f/ss%20parktikum%202%20smt3/ss3.jpeg)
 
 #### ```- penjelasan``` :
+
+- ```style="..."``` disebut inline CSS.
+
+- ```text-align: center;``` membuat teks rata tengah.
+
+- ```color: #ccd8e4;``` memberi warna biru muda.
 
 
 ### 4. Membuat CSS Eksternal 
@@ -103,6 +129,14 @@ Kemudian tambahkan tag <link> untuk merujuk file css yang sudah dibuat pada bagi
 
 #### ```- penjelasan``` :
 
+- CSS diletakkan di file ```.css``` → disebut eksternal CSS.
+
+- ```<link>``` menghubungkan HTML dengan file CSS.
+
+- ```nav``` memberi warna dan padding pada menu.
+
+- ```nav a:``` hover memberi efek saat link disentuh kursor.
+
 ### 5. Menambahkan CSS Selector 
 Selanjutnya menambahkan CSS Selector menggunakan ID dan Class Selector. Pada file style_eksternal.css, tambahkan kode berikut. 
 ```html
@@ -126,3 +160,8 @@ Selanjutnya menambahkan CSS Selector menggunakan ID dan Class Selector. Pada fil
 ![foto](https://github.com/azkaa-pixel/Lab2web-praktikum1-smt3/blob/1c8aff8e50c89dec3dfc9ebb45694df73e3f568f/ss%20parktikum%202%20smt3/ss5.jpeg)
 
 #### ```- penjelasan``` :
+- ```#intro``` adalah ID selector, hanya berlaku untuk elemen dengan ```id="intro"```.
+
+- ```.button``` dan ```.btn-primary``` adalah Class selector, bisa dipakai berulang di banyak elemen.
+
+- Kombinasi ID dan Class membuat tampilan halaman lebih fleksibel dan konsisten.
